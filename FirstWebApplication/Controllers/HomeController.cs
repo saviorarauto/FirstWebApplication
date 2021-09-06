@@ -1,4 +1,5 @@
-﻿using FirstWebApplication.Models.ViewModels;
+﻿using FirstWebApplication.Models;
+using FirstWebApplication.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;

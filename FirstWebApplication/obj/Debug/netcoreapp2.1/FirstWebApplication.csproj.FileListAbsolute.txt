@@ -34,4 +34,3 @@ C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\
 C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\FirstWebApplication.genruntimeconfig.cache
 C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\FirstWebApplication.csproj.CopyComplete
 C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\FirstWebApplication.csproj.AssemblyReference.cache
-C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs
