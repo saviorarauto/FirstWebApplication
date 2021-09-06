@@ -7,7 +7,6 @@ C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\bin\Debug\
 C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\bin\Debug\netcoreapp2.1\FirstWebApplication.pdb
 C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\bin\Debug\netcoreapp2.1\FirstWebApplication.Views.dll
 C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\bin\Debug\netcoreapp2.1\FirstWebApplication.Views.pdb
-C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\FirstWebApplication.csproj.AssemblyReference.cache
 C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\FirstWebApplication.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\FirstWebApplication.AssemblyInfoInputs.cache
 C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\FirstWebApplication.AssemblyInfo.cs
@@ -34,3 +33,5 @@ C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\
 C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\FirstWebApplication.pdb
 C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\FirstWebApplication.genruntimeconfig.cache
 C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\FirstWebApplication.csproj.CopyComplete
+C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\FirstWebApplication.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs

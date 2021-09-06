@@ -19,7 +19,7 @@ using FirstWebApplication;
 #line default
 #line hidden
 #line 2 "C:\Users\usuario\source\repos\FirstWebApplication\FirstWebApplication\Views\_ViewImports.cshtml"
-using FirstWebApplication.Models;
+using FirstWebApplication.Models.ViewModels;
 
 #line default
 #line hidden
