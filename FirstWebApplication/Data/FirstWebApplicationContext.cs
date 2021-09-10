@@ -15,5 +15,7 @@ namespace FirstWebApplication.Data
         }
 
         public DbSet<FirstWebApplication.Models.Department> Department { get; set; }
+        public DbSet<FirstWebApplication.Models.Seller> Seller { get; set; }
+        public DbSet<FirstWebApplication.Models.SalesRecord> SalesRecord { get; set; }
     }
 }
