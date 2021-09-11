@@ -39,14 +39,18 @@ namespace FirstWebApplication
             services.AddDbContext<FirstWebApplicationContext>(options =>
                     options.UseMySql(Configuration.GetConnectionString("FirstWebApplicationContext"), builder =>
 builder.MigrationsAssembly("FirstWebApplication")));
+
+            services.AddScoped<SeedingService>(); //Injenção de dependência da aplicação
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, SeedingService seedingService)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                seedingService.Seed();
             }
             else
             {
