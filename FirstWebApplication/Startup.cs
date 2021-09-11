@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using FirstWebApplication.Models;
 using FirstWebApplication.Data;
+using FirstWebApplication.Services;
 
 namespace FirstWebApplication
 {
@@ -42,7 +43,7 @@ namespace FirstWebApplication
 builder.MigrationsAssembly("FirstWebApplication")));
 
             services.AddScoped<SeedingService>(); //Injenção de dependência da aplicação
-
+            services.AddScoped<SellerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
