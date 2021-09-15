@@ -19,7 +19,7 @@ namespace FirstWebApplication.Services
 
         public List<Seller> FindAll()
         {
-            return _context.Seller.ToList();
+            return _context.Seller.Include(obj => obj.Department).Where(obj => obj.DepartmentId == obj.Department.Id ).OrderByDescending(q=>q.DepartmentId).ToList();
         }
 
         public void Insert(Seller obj)
