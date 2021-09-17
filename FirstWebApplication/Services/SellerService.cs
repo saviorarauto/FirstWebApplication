@@ -19,7 +19,7 @@ namespace FirstWebApplication.Services
 
         public async Task<List<Seller>> FindAllAsync() // era assim: public List<Seller> FindAll()
         {
-            return await _context.Seller.Include(obj => obj.Department).Where(obj => obj.DepartmentId == obj.Department.Id ).ToListAsync();
+            return await _context.Seller.Include(obj => obj.Department).Where(obj => obj.DepartmentId == obj.Department.Id).ToListAsync();
         }
 
         public async Task InsertAsync(Seller obj) // era assim: public void Insert(Seller obj)
@@ -31,15 +31,22 @@ namespace FirstWebApplication.Services
         public async Task<Seller> FindByIdAsync(int id) // era assim: public Seller FindById(int id)
         {
             return await _context.Seller.Include(obj => obj.Department).FirstOrDefaultAsync(obj => obj.Id == id);
-        } 
+        }
         public async Task RemoveAsync(int id)
         {
-            var obj = await _context.Seller.FindAsync(id);
-            _context.Seller.Remove(obj);
-            await _context.SaveChangesAsync();
+            try
+            {
+                var obj = await _context.Seller.FindAsync(id);
+                _context.Seller.Remove(obj);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException e)
+            {
+                throw new IntegrityException("It's not possible to delete this seller because he has sales");
+            }
         }
 
-        public async Task UpdateAsync (Seller obj)
+        public async Task UpdateAsync(Seller obj)
         {
             bool hasAny = await _context.Seller.AnyAsync(x => x.Id == obj.Id);
             if (!hasAny)
@@ -51,7 +58,7 @@ namespace FirstWebApplication.Services
                 _context.Update(obj);
                 await _context.SaveChangesAsync();
             }
-            catch(DbUpdateConcurrencyException e)
+            catch (DbUpdateConcurrencyException e)
             {
                 throw new DbConcurrencyException(e.Message);
             }
