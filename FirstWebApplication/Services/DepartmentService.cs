@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace FirstWebApplication.Services
 {
@@ -15,9 +16,9 @@ namespace FirstWebApplication.Services
             _context = context;
         }
 
-        public List<Department> FindAll()
+        public async Task<List<Department>> FindAllAsync() // Antes era assim: public List<Department> FindAll()
         {
-            return _context.Department.OrderBy(x => x.Name).ToList();
+            return await _context.Department.OrderBy(x => x.Name).ToListAsync(); // era assim: return _context.Department.OrderBy(x => x.Name).ToList();
         }
     }
 }
