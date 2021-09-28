@@ -12738,11 +12738,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\source\\repos\\FirstWebApplication\\FirstWebApplication\\FirstWebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\source\\repos\\FirstWebApplication\\FirstWebApplication\\FirstWebApplication\\FirstWebApplication.csproj",
       "projectName": "FirstWebApplication",
-      "projectPath": "C:\\Users\\usuario\\source\\repos\\FirstWebApplication\\FirstWebApplication\\FirstWebApplication.csproj",
+      "projectPath": "C:\\Users\\usuario\\source\\repos\\FirstWebApplication\\FirstWebApplication\\FirstWebApplication\\FirstWebApplication.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\source\\repos\\FirstWebApplication\\FirstWebApplication\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\source\\repos\\FirstWebApplication\\FirstWebApplication\\FirstWebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
