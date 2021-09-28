@@ -12738,11 +12738,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\source\\repos\\FirstWebApplication\\FirstWebApplication\\FirstWebApplication.csproj",
-      "projectName": "FirstWebApplication",
-      "projectPath": "C:\\Users\\usuario\\source\\repos\\FirstWebApplication\\FirstWebApplication\\FirstWebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\OneDrive\\Área de Trabalho\\Projetos Pessoais\\Primeiro Projeto\\Projeto de Cadastro de Patrimônio\\FirstWebApplication\\Gestao_Patrimonial.csproj",
+      "projectName": "Gestao_Patrimonial",
+      "projectPath": "C:\\Users\\usuario\\OneDrive\\Área de Trabalho\\Projetos Pessoais\\Primeiro Projeto\\Projeto de Cadastro de Patrimônio\\FirstWebApplication\\Gestao_Patrimonial.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\source\\repos\\FirstWebApplication\\FirstWebApplication\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\OneDrive\\Área de Trabalho\\Projetos Pessoais\\Primeiro Projeto\\Projeto de Cadastro de Patrimônio\\FirstWebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

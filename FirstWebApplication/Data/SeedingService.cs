@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FirstWebApplication.Models;
-using FirstWebApplication.Models.Enums;
+using Gestao_Patrimonial.Models;
+using Gestao_Patrimonial.Models.Enums;
 
-namespace FirstWebApplication.Data
+namespace Gestao_Patrimonial.Data
 {
     public class SeedingService
     {
-        private FirstWebApplicationContext _context;
+        private Gestao_PatrimonialContext _context;
 
-        public SeedingService(FirstWebApplicationContext context)
+        public SeedingService(Gestao_PatrimonialContext context)
         {
             _context = context;
         }

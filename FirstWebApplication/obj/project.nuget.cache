@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FAXNU6Tu+HZSq+Bz8HRWROpP4gGYn/II4uYLPHhQc0fAnejPLKDEqWbsC1HshtBxuNyGuWX4YUNc29AuovRDww==",
+  "dgSpecHash": "efOd/hQ11PFhzzF9sIUqbYRVZH7N3W/JxwMnUTt5p9g3FrNTWW09nen0D5ovT77Kg4aHVCh22t02QK9g8yM0dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario\\source\\repos\\FirstWebApplication\\FirstWebApplication\\FirstWebApplication.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\OneDrive\\Área de Trabalho\\Projetos Pessoais\\Primeiro Projeto\\Projeto de Cadastro de Patrimônio\\FirstWebApplication\\Gestao_Patrimonial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",

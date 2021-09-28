@@ -11,12 +11,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using FirstWebApplication.Models;
-using FirstWebApplication.Data;
-using FirstWebApplication.Services;
+using Gestao_Patrimonial.Models;
+using Gestao_Patrimonial.Data;
+using Gestao_Patrimonial.Services;
 using System.Globalization;
 
-namespace FirstWebApplication
+namespace Gestao_Patrimonial
 {
     public class Startup
     {
@@ -40,9 +40,9 @@ namespace FirstWebApplication
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             
-            services.AddDbContext<FirstWebApplicationContext>(options =>
-                    options.UseMySql(Configuration.GetConnectionString("FirstWebApplicationContext"), builder =>
-builder.MigrationsAssembly("FirstWebApplication")));
+            services.AddDbContext<Gestao_PatrimonialContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("Gestao_PatrimonialContext"), builder =>
+builder.MigrationsAssembly("Gestao_Patrimonial")));
 
             services.AddScoped<SeedingService>(); //Injenção de dependência da aplicação
             services.AddScoped<SellerService>();

@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FirstWebApplication.Services;
+using Gestao_Patrimonial.Services;
 
-namespace FirstWebApplication.Controllers
+namespace Gestao_Patrimonial.Controllers
 {
     public class SalesRecordsController : Controller
     {

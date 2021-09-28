@@ -1,5 +1,5 @@
-﻿using FirstWebApplication.Models;
-using FirstWebApplication.Models.ViewModel;
+﻿using Gestao_Patrimonial.Models;
+using Gestao_Patrimonial.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FirstWebApplication.Controllers
+namespace Gestao_Patrimonial.Controllers
 {
     public class HomeController : Controller
     {

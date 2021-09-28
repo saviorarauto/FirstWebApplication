@@ -2,7 +2,7 @@
   "dependencies": {
     "mssql1": {
       "type": "mssql.local",
-      "connectionId": "ConnectionStrings:FirstWebApplicationContext"
+      "connectionId": "ConnectionStrings:Gestao_PatrimonialContext"
     }
   }
 }
