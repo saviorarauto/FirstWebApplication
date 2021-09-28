@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Gestao_Patrimonial.Data;
-using Gestao_Patrimonial.Models;
-using Gestao_Patrimonial.Services.Exceptions;
+using FirstWebApplication.Data;
+using FirstWebApplication.Models;
+using FirstWebApplication.Services.Exceptions;
 using Microsoft.EntityFrameworkCore; // Necessário para fazer o join de tabelas
 
-namespace Gestao_Patrimonial.Services
+namespace FirstWebApplication.Services
 {
     public class SellerService
     {
-        private readonly Gestao_PatrimonialContext _context;
-        public SellerService(Gestao_PatrimonialContext context)
+        private readonly FirstWebApplicationContext _context;
+        public SellerService(FirstWebApplicationContext context)
         {
             _context = context;
         }

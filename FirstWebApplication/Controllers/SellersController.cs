@@ -1,16 +1,16 @@
-﻿using Gestao_Patrimonial.Models;
-using Gestao_Patrimonial.Services;
-using Gestao_Patrimonial.Data;
+﻿using FirstWebApplication.Models;
+using FirstWebApplication.Services;
+using FirstWebApplication.Data;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Gestao_Patrimonial.Models.ViewModel;
-using Gestao_Patrimonial.Services.Exceptions;
+using FirstWebApplication.Models.ViewModel;
+using FirstWebApplication.Services.Exceptions;
 using System.Diagnostics;
 
-namespace Gestao_Patrimonial.Controllers
+namespace FirstWebApplication.Controllers
 {
     public class SellersController : Controller
     {

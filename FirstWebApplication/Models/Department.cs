@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Gestao_Patrimonial.Models
+namespace FirstWebApplication.Models
 {
     public class Department
     {

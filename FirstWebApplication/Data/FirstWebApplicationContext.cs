@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Gestao_Patrimonial.Models;
+using FirstWebApplication.Models;
 
-namespace Gestao_Patrimonial.Data
+namespace FirstWebApplication.Data
 {
-    public class Gestao_PatrimonialContext : DbContext
+    public class FirstWebApplicationContext : DbContext
     {
-        public Gestao_PatrimonialContext (DbContextOptions<Gestao_PatrimonialContext> options)
+        public FirstWebApplicationContext (DbContextOptions<FirstWebApplicationContext> options)
             : base(options)
         {
         }
 
-        public DbSet<Gestao_Patrimonial.Models.Department> Department { get; set; }
-        public DbSet<Gestao_Patrimonial.Models.Seller> Seller { get; set; }
-        public DbSet<Gestao_Patrimonial.Models.SalesRecord> SalesRecord { get; set; }
+        public DbSet<FirstWebApplication.Models.Department> Department { get; set; }
+        public DbSet<FirstWebApplication.Models.Seller> Seller { get; set; }
+        public DbSet<FirstWebApplication.Models.SalesRecord> SalesRecord { get; set; }
     }
 }

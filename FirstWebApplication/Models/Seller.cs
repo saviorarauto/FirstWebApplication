@@ -4,7 +4,7 @@ using System.Linq;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace Gestao_Patrimonial.Models
+namespace FirstWebApplication.Models
 {
     public class Seller
     {

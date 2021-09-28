@@ -1,10 +1,10 @@
-﻿using Gestao_Patrimonial.Models;
+﻿using FirstWebApplication.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Gestao_Patrimonial.Models.ViewModel
+namespace FirstWebApplication.Models.ViewModel
 {
     public class SellerFormViewModel
     {

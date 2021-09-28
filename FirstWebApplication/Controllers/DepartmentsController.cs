@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Gestao_Patrimonial.Data;
-using Gestao_Patrimonial.Models;
+using FirstWebApplication.Data;
+using FirstWebApplication.Models;
 
-namespace Gestao_Patrimonial.Controllers
+namespace FirstWebApplication.Controllers
 {
     public class DepartmentsController : Controller
     {
-        private readonly Gestao_PatrimonialContext _context;
+        private readonly FirstWebApplicationContext _context;
 
-        public DepartmentsController(Gestao_PatrimonialContext context)
+        public DepartmentsController(FirstWebApplicationContext context)
         {
             _context = context;
         }

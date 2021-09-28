@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Gestao_Patrimonial.Services.Exceptions
+namespace FirstWebApplication.Services.Exceptions
 {
     public class NotFoundException : ApplicationException
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Gestao_Patrimonial.Models.Enums
+namespace FirstWebApplication.Models.Enums
 {
     public enum SalesStatus : int
     {

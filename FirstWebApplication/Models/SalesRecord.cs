@@ -1,8 +1,8 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using Gestao_Patrimonial.Models.Enums;
+using FirstWebApplication.Models.Enums;
 
-namespace Gestao_Patrimonial.Models
+namespace FirstWebApplication.Models
 {
     public class SalesRecord
     {

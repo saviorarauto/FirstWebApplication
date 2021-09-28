@@ -1,17 +1,17 @@
-﻿using Gestao_Patrimonial.Data;
-using Gestao_Patrimonial.Models;
+﻿using FirstWebApplication.Data;
+using FirstWebApplication.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace Gestao_Patrimonial.Services
+namespace FirstWebApplication.Services
 {
     public class SalesRecordService
     {
-        private readonly Gestao_PatrimonialContext _context;
-        public SalesRecordService(Gestao_PatrimonialContext context)
+        private readonly FirstWebApplicationContext _context;
+        public SalesRecordService(FirstWebApplicationContext context)
         {
             _context = context;
         }
